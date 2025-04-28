@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Marciel</title>
+    <style>
+        :root {
+    --cor-primaria: #1E3A5F;
+    --cor-secundaria: #138A72;
+    --cor-terciaria: #F4F4F4;
+    --cor-destaque: #E67E22;
+    --cor-texto: #1E3A5F;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-texto);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background-color: var(--cor-primaria);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+    max-width: 800px;
+}
+
+aside {
+    background-color: var(--cor-secundaria);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+    margin: 20px 0;
+    width: 80%;
+}
+
+footer {
+    background-color: var(--cor-primaria);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    background-color: var(--cor-destaque);
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #D35400;
+}
+
+a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao site de Marciel!</h1>
+    </header>
+    
+    <section>
+        <h2>Sobre Mim</h2>
+        <p>Olá! Sou Marciel de Jesus Santana, professor de filosofia e estudante de desenvolvimento web.</p>
+        <button class="btn">Saiba Mais</button>
+    </section>
+    
+    <aside>
+        <h3>Projetos</h3>
+        <p>Estou desenvolvendo alguns projetos simples pois assim em breve farei grandes projetos.</p>
+        <a href="#">Confira mais</a>
+    </aside>
+    
+    <footer>
+        <p>&copy; 2025 Site de Marciel | Desenvolvido com paixão por tecnologia.</p>
+    </footer>
+</body>
+</html>
+
